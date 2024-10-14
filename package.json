@@ -1,25 +1,17 @@
 {
     "name": "comp3123-assignment1",
-    "version": "0.1.0",
-    "description": "Backend application for COMP 3123 Assignment 1 using Node.js, Express, and MongoDB",
+    "version": "1.0.0",
+    "description": "COMP3123 Fullstack Assignment 1",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js",
-        "dev": "nodemon index.js"
+      "start": "node index.js"
     },
     "dependencies": {
-        "bcryptjs": "^2.4.3",
-        "body-parser": "^1.20.2",
-        "cors": "^2.8.5",
-        "express": "^4.21.1",
-        "express-validator": "^6.15.0",
-        "jsonwebtoken": "^9.0.2",
-        "mongoose": "^7.8.2"
+      "express": "^4.17.1",
+      "mongoose": "^5.10.9",
+      "bcryptjs": "^2.4.3",
+      "express-validator": "^6.6.1"
     },
-    "devDependencies": {
-        "nodemon": "^2.0.22"
-    },
-    "author": "Karan Parmar",
-    "license": "ISC",
-    "keywords": []
-}
+    "author": "",
+    "license": "ISC"
+  }
